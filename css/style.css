@@ -19,7 +19,7 @@ img{background-color: rgb(255, 255, 255);
 }
 /* regole main */
 #sfondo-corpo{
-    background-color: rgb(223, 215, 215);
+    background-color: rgb(206, 206, 206);
     padding: 30px 200px;
 }
 
@@ -38,7 +38,7 @@ img{background-color: rgb(255, 255, 255);
 }
 
 #add-task {
-    background-color: blue;
+    background-color: rgb(47, 149, 233);
     color: white;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -94,7 +94,12 @@ li{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: larger;
+    ;
 }
+ul li::marker {
+    content: "\2713";
+border-radius: 50%;
+color: green;}
 
 
 
